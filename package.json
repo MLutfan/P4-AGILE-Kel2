@@ -7,11 +7,11 @@
     "doc": "docs"
   },
   "scripts": {
-    "dev:order": "tsx services/order-service/src/index.ts",
-    "dev:notif": "tsx services/notification-service/src/index.ts",
-    "test": "jest",
     "lint:api": "spectral lint openapi/api.yaml",
-    "mock": "prism mock openapi/api.yaml"
+    "mock": "prism mock openapi/api.yaml",
+    "test": "jest",
+    "dev:orders": "tsx services/order-service/src/index.ts",
+    "dev:notif": "tsx services/notification-service/src/index.ts"
   },
   "repository": {
     "type": "git",
